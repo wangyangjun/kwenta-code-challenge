@@ -5,7 +5,7 @@ import { createUseReadContract } from 'wagmi/codegen'
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const perpsV2MarketDataAbi = [
   {
@@ -742,14 +742,14 @@ export const perpsV2MarketDataAbi = [
 ] as const
 
 /**
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const perpsV2MarketDataAddress = {
   10: '0x340B5d664834113735730Ad4aFb3760219Ad9112',
 } as const
 
 /**
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const perpsV2MarketDataConfig = {
   address: perpsV2MarketDataAddress,
@@ -763,7 +763,7 @@ export const perpsV2MarketDataConfig = {
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link perpsV2MarketDataAbi}__
  *
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const useReadPerpsV2MarketData = /*#__PURE__*/ createUseReadContract({
   abi: perpsV2MarketDataAbi,
@@ -773,7 +773,7 @@ export const useReadPerpsV2MarketData = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link perpsV2MarketDataAbi}__ and `functionName` set to `"allMarketSummaries"`
  *
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const useReadPerpsV2MarketDataAllMarketSummaries =
   /*#__PURE__*/ createUseReadContract({
@@ -785,7 +785,7 @@ export const useReadPerpsV2MarketDataAllMarketSummaries =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link perpsV2MarketDataAbi}__ and `functionName` set to `"allProxiedMarketSummaries"`
  *
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const useReadPerpsV2MarketDataAllProxiedMarketSummaries =
   /*#__PURE__*/ createUseReadContract({
@@ -797,7 +797,7 @@ export const useReadPerpsV2MarketDataAllProxiedMarketSummaries =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link perpsV2MarketDataAbi}__ and `functionName` set to `"globals"`
  *
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const useReadPerpsV2MarketDataGlobals =
   /*#__PURE__*/ createUseReadContract({
@@ -809,7 +809,7 @@ export const useReadPerpsV2MarketDataGlobals =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link perpsV2MarketDataAbi}__ and `functionName` set to `"marketDetails"`
  *
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const useReadPerpsV2MarketDataMarketDetails =
   /*#__PURE__*/ createUseReadContract({
@@ -821,7 +821,7 @@ export const useReadPerpsV2MarketDataMarketDetails =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link perpsV2MarketDataAbi}__ and `functionName` set to `"marketDetailsForKey"`
  *
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const useReadPerpsV2MarketDataMarketDetailsForKey =
   /*#__PURE__*/ createUseReadContract({
@@ -833,7 +833,7 @@ export const useReadPerpsV2MarketDataMarketDetailsForKey =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link perpsV2MarketDataAbi}__ and `functionName` set to `"marketSummaries"`
  *
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const useReadPerpsV2MarketDataMarketSummaries =
   /*#__PURE__*/ createUseReadContract({
@@ -845,7 +845,7 @@ export const useReadPerpsV2MarketDataMarketSummaries =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link perpsV2MarketDataAbi}__ and `functionName` set to `"marketSummariesForKeys"`
  *
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const useReadPerpsV2MarketDataMarketSummariesForKeys =
   /*#__PURE__*/ createUseReadContract({
@@ -857,7 +857,7 @@ export const useReadPerpsV2MarketDataMarketSummariesForKeys =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link perpsV2MarketDataAbi}__ and `functionName` set to `"parameters"`
  *
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const useReadPerpsV2MarketDataParameters =
   /*#__PURE__*/ createUseReadContract({
@@ -869,7 +869,7 @@ export const useReadPerpsV2MarketDataParameters =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link perpsV2MarketDataAbi}__ and `functionName` set to `"positionDetails"`
  *
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const useReadPerpsV2MarketDataPositionDetails =
   /*#__PURE__*/ createUseReadContract({
@@ -881,7 +881,7 @@ export const useReadPerpsV2MarketDataPositionDetails =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link perpsV2MarketDataAbi}__ and `functionName` set to `"positionDetailsForMarketKey"`
  *
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const useReadPerpsV2MarketDataPositionDetailsForMarketKey =
   /*#__PURE__*/ createUseReadContract({
@@ -893,7 +893,7 @@ export const useReadPerpsV2MarketDataPositionDetailsForMarketKey =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link perpsV2MarketDataAbi}__ and `functionName` set to `"resolverProxy"`
  *
- * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340B5d664834113735730Ad4aFb3760219Ad9112)
+ * [__View Contract on Op Mainnet Optimism Explorer__](https://explorer.optimism.io/address/0x340b5d664834113735730ad4afb3760219ad9112)
  */
 export const useReadPerpsV2MarketDataResolverProxy =
   /*#__PURE__*/ createUseReadContract({
