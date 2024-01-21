@@ -5,6 +5,7 @@ import { Table, Title } from '@/components/table';
 import useAllMarketSummaries from '@/hooks/useAllMarketSummaries';
 import { MarketSummary } from '@/types';
 import styles from './page.module.css';
+import { useEffect } from 'react';
 
 const columnHelper = createColumnHelper<MarketSummary>();
 
@@ -24,8 +25,19 @@ const columns = [
   })
 ];
 
+const POLLING_INTERVAL = 3000;
+
 export default function Home() {
-  const { summaries, isLoading } = useAllMarketSummaries();
+  const { summaries, isLoading, refetch } = useAllMarketSummaries();
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      refetch();
+    }, POLLING_INTERVAL);
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, [refetch]);
 
   return (
     <div className={styles.main}>

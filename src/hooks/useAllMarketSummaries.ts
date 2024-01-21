@@ -10,10 +10,11 @@ type SummaryResult = {
   summaries: MarketSummary[];
   isLoading: boolean;
   isSuccess: boolean;
+  refetch: () => void;
 };
 
 const useAllMarketSummaries = (): SummaryResult => {
-  const { data, isLoading, isSuccess } = useReadPerpsV2MarketDataAllMarketSummaries();
+  const { data, isLoading, isSuccess, refetch } = useReadPerpsV2MarketDataAllMarketSummaries();
 
   const summaries = useMemo(() => {
     if (isSuccess && data) {
@@ -29,7 +30,7 @@ const useAllMarketSummaries = (): SummaryResult => {
     return [];
   }, [data, isSuccess]); // Only recompute if data or isSuccess changes
 
-  return { summaries, isLoading, isSuccess };
+  return { summaries, isLoading, isSuccess, refetch };
 };
 
 export default useAllMarketSummaries;
