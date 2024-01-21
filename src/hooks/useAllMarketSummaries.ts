@@ -2,8 +2,8 @@ import { useMemo } from 'react';
 import { hexToString } from 'viem';
 
 import { formatMoney, formatPercent } from '@/utils/numbers';
-import { useReadPerpsV2MarketDataAllMarketSummaries } from '../../generated';
-import { MarketSummary } from '../types';
+import { MarketSummary } from '@/types';
+import { useReadPerpsV2MarketDataAllMarketSummaries } from '@/generated';
 
 type SummaryResult = {
   summaries: MarketSummary[];

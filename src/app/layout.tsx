@@ -1,4 +1,4 @@
-import StyledComponentsRegistry from './lib/registry';
+import StyledComponentsRegistry from '@/lib/registry';
 
 import './globals.css';
 import { Inter } from 'next/font/google';

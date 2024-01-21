@@ -2,9 +2,9 @@
 
 import { createColumnHelper } from '@tanstack/react-table';
 import { Table, Title } from '@/components/table';
-import useAllMarketSummaries from './hooks/useAllMarketSummaries';
+import useAllMarketSummaries from '@/hooks/useAllMarketSummaries';
+import { MarketSummary } from '@/types';
 import styles from './page.module.css';
-import { MarketSummary } from './types';
 
 const columnHelper = createColumnHelper<MarketSummary>();
 
