@@ -3,14 +3,7 @@ import { hexToString } from 'viem';
 
 import { formatMoney, formatPercent } from '@/utils/numbers';
 import { useReadPerpsV2MarketDataAllMarketSummaries } from '../../generated';
-
-export type MarketSummary = {
-  market: string;
-  key: string;
-  price: string;
-  marketSize: string;
-  fee: string;
-};
+import { MarketSummary } from '../types';
 
 type SummaryResult = {
   summaries: MarketSummary[];
