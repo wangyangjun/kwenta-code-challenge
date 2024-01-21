@@ -25,3 +25,26 @@ Display a list of Synthetix perps markets.
 [Figma File](https://www.figma.com/file/zxzYWNqKSnjGSnXd5tYIDN/Markets-List?type=design&node-id=0%3A1&t=iM2wd9Y4mCMPJ7H7-1)
 
 ![Design](public/markets-list.png)
+
+## Environment Variables
+
+Create file `.env.local`
+
+```bash
+cp .env.local.example .env.local
+```
+
+- `OPTIMISTIC_ETHERSCAN_API_KEY`
+  - API key of optimistic etherscan, which could be created at https://optimistic.etherscan.io/myapikey
+- `NEXT_PUBLIC_PROVIDER_ID`
+  - INFURA or BLAST_API or other provider id
+  - if you choose other provider, please update correpsonding code in `src/utils/network.ts`
+- `NEXT_PUBLIC_INFURA_API_KEY`
+  - API key of Infura PRC provider, which could be created at https://app.infura.io/
+
+## ABI Management
+
+This project use Wagmi CLI for managing ABIs and generating React Hooks. The generated file(`src/generated.ts`) is already added in the repository. If more contracts needed to be added in the project, please following steps:
+
+- updating configure file `wagmi.config.ts`
+- run command `npm run generate`
