@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import { hexToString } from 'viem';
+import { FuturesMarketAsset } from '@kwenta/sdk/types';
 
 import { formatMoney, formatPercent } from '@/utils/numbers';
 import { MarketSummary } from '@/types';
@@ -18,6 +19,7 @@ const useAllMarketSummaries = (): SummaryResult => {
     if (isSuccess && data) {
       return data.map(item => ({
         market: `${hexToString(item.asset, { size: 32 })}-PERP`,
+        asset: hexToString(item.asset, { size: 32 }) as FuturesMarketAsset,
         key: hexToString(item.key, { size: 32 }),
         price: formatMoney(item.price),
         marketSize: formatMoney(item.marketSize),
