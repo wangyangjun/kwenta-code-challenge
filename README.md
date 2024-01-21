@@ -48,3 +48,7 @@ This project use Wagmi CLI for managing ABIs and generating React Hooks. The gen
 
 - updating configure file `wagmi.config.ts`
 - run command `npm run generate`
+
+## Demo
+
+The project is deployed to vercel, which could be access here - https://kwenta-code-challenge.vercel.app
